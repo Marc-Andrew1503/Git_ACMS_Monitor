@@ -16,5 +16,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    npm i -D @types/node
     npm install
     npm run electron:build
