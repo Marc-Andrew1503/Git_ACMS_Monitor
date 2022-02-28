@@ -18,4 +18,3 @@ steps:
 - script: |
     npm install
     npm run electron:build
-  displayName: 'npm install and build'
