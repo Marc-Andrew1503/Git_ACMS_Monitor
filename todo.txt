@@ -1,0 +1,25 @@
+
+server:
+-------------------------------
+SendDriverResetCommand              >> DONE
+SendUdpPacket                       >> done
+SendUpforceCommand                  >> done
+SendReleaseCommand =stop upforce    >> done
+SendGetInfoCommand
+
+serverManager:
+-------------------------------
+move hide server feature to UI?
+
+acmsMonitor:
+-------------------------------
+add log feature
+
+
+broadcastreceiver:
+-------------------------------
+ProcessMessage: handle message = null
+
+udpbroadcastMessage:
+-------------------------------
+CreateMessage: check if try/catch is really needed

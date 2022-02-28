@@ -1,0 +1,45 @@
+{
+  "name": "acmsmonitor",
+  "version": "1.0.0",
+  "private": true,
+  "author": "ADB Safegate Germany GmbH",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "@vue/cli": "^4.5.15",
+    "bootstrap": "^5.1.1",
+    "electron-builder": "^22.14.5",
+    "react": "17.0.2",
+    "tslib": "^2.3.1",
+    "vue": "^3.2.19",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.1.6",
+    "@types/electron-devtools-installer": "^2.2.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "electron": "^13.0.0",
+    "electron-devtools-installer": "^3.1.0",
+    "typescript": "~4.1.5",
+    "vue-cli-plugin-electron-builder": "^2.1.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "keywords": [],
+  "license": "ISC"
+}
